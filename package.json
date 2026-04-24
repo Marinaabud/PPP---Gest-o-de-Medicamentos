@@ -1,0 +1,28 @@
+{
+  "name": "gestao-medicacao-api",
+  "version": "1.0.0",
+  "description": "API REST para gestao de medicamentos receitados com autenticacao JWT, Swagger e banco em memoria.",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "mocha --require test/setup.js --recursive test/**/*.test.js"
+  },
+  "keywords": [
+    "express",
+    "jwt",
+    "swagger",
+    "medicacao",
+    "api-rest"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.5.0",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "mocha": "^11.7.5",
+    "supertest": "^7.2.2",
+    "swagger-ui-express": "^5.0.1"
+  }
+}
