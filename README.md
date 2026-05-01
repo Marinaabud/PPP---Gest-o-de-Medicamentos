@@ -2,7 +2,9 @@
 
 API REST em JavaScript para controle de medicamentos receitados para uso em casa. O projeto foi organizado em camadas (`routes`, `controllers`, `services` e `models`), utiliza Express, autenticação JWT, banco em memória, documentação Swagger e testes com Mocha, Supertest e Chai.
 
-# PROTÓTIPO DE FRONTEND:
+# Protótipo de Frontend:
+
+![Preview do frontend](docs/images/frontend.png)
 
 
 ## Proposta funcional
