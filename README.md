@@ -1,12 +1,12 @@
-# Gestao de Medicacao API
+# Gestão de Medicação API
 
-API REST em JavaScript para controle de medicamentos receitados para uso em casa. O projeto foi organizado em camadas (`routes`, `controllers`, `services` e `models`), utiliza Express, autenticacao JWT, banco em memoria, documentacao Swagger e testes com Mocha, Supertest e Chai.
+API REST em JavaScript para controle de medicamentos receitados para uso em casa. O projeto foi organizado em camadas (`routes`, `controllers`, `services` e `models`), utiliza Express, autenticação JWT, banco em memória, documentação Swagger e testes com Mocha, Supertest e Chai.
 
 ## Proposta funcional
-- Cadastro e login de usuario com JWT.
-- Cadastro de medicamentos com nome, quantidade, unidade, horarios, prazo e observacoes.
+- Cadastro e login de usuário com JWT.
+- Cadastro de medicamentos com nome, quantidade, unidade, horarios, prazo e observações.
 - Listagem e filtro por status `em_uso` e `finalizado`.
-- Finalizacao manual ou automatica do tratamento conforme o prazo informado.
+- Finalização manual ou automática do tratamento conforme o prazo informado.
 - Swagger em interface visual e em JSON.
 
 ## Estrutura do projeto
@@ -56,16 +56,16 @@ npm test
 - `GET /docs`
 - `GET /docs/json`
 
-## Regras de autenticacao
+## Regras de autenticação
 - O token JWT deve ser enviado no header `Authorization` no formato `Bearer <token>`.
-- Endpoints de medicamentos exigem autenticacao.
-- Cada usuario acessa apenas os seus proprios medicamentos.
+- Endpoints de medicamentos exigem autenticação.
+- Cada usuário acessa apenas os seus próprios medicamentos.
 
 ## Swagger
 - Interface: `http://localhost:3000/docs`
 - JSON: `http://localhost:3000/docs/json`
 
-O arquivo fonte da documentacao fica em [resources/swagger.json](C:\Users\marin\OneDrive\Documentos\Gestão de Medicação\resources\swagger.json).
+O arquivo fonte da documentação fica em [resources/swagger.json](C:\Users\marin\OneDrive\Documentos\Gestão de Medicação\resources\swagger.json).
 
-## Historias do produto
-O epico e as user stories do MVP estao em [resources/epic-user-stories.md](C:\Users\marin\OneDrive\Documentos\Gestão de Medicação\resources\epic-user-stories.md).
+## Histórias do produto
+O épico e as user stories do MVP estao em [resources/epic-user-stories.md](C:\Users\marin\OneDrive\Documentos\Gestão de Medicação\resources\epic-user-stories.md).
