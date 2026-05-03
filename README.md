@@ -5,6 +5,10 @@ API REST em JavaScript para controle de medicamentos receitados para uso em casa
 # Protótipo de Frontend:
 
 
+![Preview do frontend](resources/frontend.png.png)
+
+
+
 ## Proposta funcional
 - Cadastro e login de usuário com JWT.
 - Cadastro de medicamentos com nome, quantidade, unidade, horarios, prazo e observações.
