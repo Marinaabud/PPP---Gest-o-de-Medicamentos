@@ -73,7 +73,3 @@ npm test
 - Interface: `http://localhost:3000/docs`
 - JSON: `http://localhost:3000/docs/json`
 
-O arquivo fonte da documentação fica em [resources/swagger.json](C:\Users\marin\OneDrive\Documentos\Gestão de Medicação\resources\swagger.json).
-
-## Histórias do produto
-O épico e as user stories do MVP estao em [resources/epic-user-stories.md](C:\Users\marin\OneDrive\Documentos\Gestão de Medicação\resources\epic-user-stories.md).
