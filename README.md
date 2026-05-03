@@ -5,7 +5,8 @@ API REST em JavaScript para controle de medicamentos receitados para uso em casa
 # Protótipo de Frontend:
 
 
-![Preview do frontend](resources/frontend.png.png)
+![Preview do frontend](resources/frontend.png)
+
 
 
 
